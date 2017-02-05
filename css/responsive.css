@@ -1,0 +1,72 @@
+
+/**Modify CSS to hide links on small width and show button and select
+ Also hides select and button on larger width and show's liks**/
+@media (min-width: 320px) and (max-width: 569px) {
+    #menu ul {
+        display: none;
+    }
+    select {
+        height: 40px;;
+    }
+    
+    .main-header {
+        padding-bottom: 60px;
+    }
+    
+    .banner {
+        margin-top: 90px;
+    }
+    
+    span {
+        display: none;
+    }
+    
+    #form {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    
+    
+}
+
+@media (min-width: 568px) {
+    #menu select, #menu button  {
+        display: none;
+    }
+    
+    
+    
+    /***************************************
+MEDIA QURIE: FORM
+****************************************/
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+@media (min-width: 769px) {
+	.main-header,
+	.row {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.tagline {
+		font-size: 1.4em;
+	}
+}
+@media (min-width: 1025px) {
+	.main-header,
+	.row {
+		width: 80%;
+		max-width: 1150px;
+	}
+}
