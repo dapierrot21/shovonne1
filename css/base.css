@@ -216,9 +216,7 @@ input[type="checkbox"] {
 }
 
 select {
-  padding: 6px;
-  height: 32px;
- 
+  height: 32px; 
 }
 
 .button {
@@ -302,6 +300,19 @@ button {
     margin-bottom: 10px;
     cursor: pointer;
 }
-
+select {
+    display: inline-block;
+	line-height: 30px;
+	padding: 0 128px;
+	width: 100%;
+    color: #FFF;
+    background-color:#FF8FA3;
+    font-family: cursive;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    cursor: pointer
+}
 
 
