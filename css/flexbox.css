@@ -2,6 +2,22 @@
   Media Queries
 ==================================== */
 
+
+@media (min-width: 375px) {
+    .primary {
+        display: flex;
+        flex-direction: column;
+    } /* Puts the .primary div into a flex container, items felx direction: column*/
+    
+    .headline {
+        align-items: center;
+        margin: auto;
+    }/* Place img in the center of the contianer, margin takes up reminding space */
+    
+    
+}
+
+
 @media (min-width: 769px) {
 
 	.main-header,
@@ -39,12 +55,21 @@
 
 	.col {
 		flex-basis: 0;
-
 	}
 
 	.primary {
 		flex-grow: -1;
 	}
 
-
+ 
+   
 }
+
+
+
+
+
+
+
+
+

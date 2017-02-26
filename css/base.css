@@ -64,6 +64,14 @@ img {
     border: 30px solid #C56664;
 }
 
+.bold {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.11em;
+    text-align: center;
+    color: #000;
+}
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -133,6 +141,7 @@ p::first-letter {
 	background: #C2C2C2;
 	padding: 2em 0;
 	margin-top: 30px;
+    clear: both;
 }
 
 .primary {
@@ -141,14 +150,14 @@ p::first-letter {
     margin: auto;
 }
 
+
+
 /* ---- Page Elements ---- */
 
 .logo {
 	width: 190px;
 }
-.headline {
-	margin-bottom: 0;
-}
+
 .feat-img {
 	border-radius: 5px;
 }
@@ -314,5 +323,52 @@ select {
     margin-bottom: 10px;
     cursor: pointer
 }
+
+
+/***************************************
+PAGE: ABOUT ME
+****************************************/
+
+.column {
+    width: 100%;
+	}
+
+
+.about {
+    
+	}
+
+
+.photo {
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    border-radius: 15px;
+    width: 305px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.mission p {
+    text-align: center;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
