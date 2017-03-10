@@ -1,4 +1,4 @@
-/* ================================= 
+/* =================================
   Media Queries
 ==================================== */
 
@@ -8,14 +8,16 @@
         display: flex;
         flex-direction: column;
     } /* Puts the .primary div into a flex container, items felx direction: column*/
-    
+
     .headline {
         align-items: center;
         margin: auto;
     }/* Place img in the center of the contianer, margin takes up reminding space */
-    
-    
+
+
 }
+
+
 
 
 @media (min-width: 769px) {
@@ -32,7 +34,7 @@
 	}
 
 	.col {
-		flex: 1 50%;
+		flex: 1 50%; 
 	}
 
 	.row {
@@ -50,7 +52,7 @@
 
 	.main-header {
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 
 	.col {
@@ -58,18 +60,12 @@
 	}
 
 	.primary {
-		flex-grow: -1;
+		flex-grow: 0;
 	}
 
- 
-   
+  .row {
+    align-content: center;
+  }
+
+
 }
-
-
-
-
-
-
-
-
-

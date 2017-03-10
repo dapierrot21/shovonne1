@@ -1,5 +1,5 @@
 <?php
-  
+
 
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -19,7 +19,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "dapierrot21@gmail.com";
+        $recipient = "tailormaderealestateinvestors@gmail.com";
 
         // Set the email subject.
         $subject = "New contact from $name";
