@@ -12,6 +12,13 @@ MEDIA QURIE: FORM
   }
 
 }
+
+
+@media (min-width: 360px) {
+  .contact-info ul li {
+    width: 45%;
+  }
+}
 /* =================================
   Media Queries
 ==================================== */
@@ -36,6 +43,7 @@ MEDIA QURIE: FORM
 	.row {
 		width: 100%;
 	}
+
 
 
 }
